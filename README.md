@@ -27,13 +27,25 @@ Inspired by the editorial elegance and craftsmanship of **[DesignX Community](ht
 
 ---
 
-## 👥 Engineering Team & Roles
+## 👥 The Engineering Team
 
-| Role | Alias | Focus Area |
+| Role | Team Member | Focus Area |
 | :--- | :--- | :--- |
-| **Developer X (Team Lead)** | `@Webghost01-NG` | System Architecture, Design System Tokens, CI/CD, Code Reviews & Cloudflare Security |
-| **Developer Y (Software Developer)** | Developer Y | Next.js Frontend, Supabase Database, Paystack Webhooks & Digital ID QR Engine |
-| **Developer Z (No-Code Developer)** | Developer Z | Headless CMS, Exco Directory, Make.com Automations & Communication Pipelines |
+| **Team Lead & Architect** | **W3BGHOST** (`@Webghost01-NG`) | System Architecture, Design System Tokens, CI/CD, Code Reviews & Cloudflare Security |
+| **Software Developer** | **NureniJamiu** | Next.js Frontend, Supabase Database, Paystack Webhooks & Digital ID QR Engine |
+| **No-Code Developer** | **cre8hive27-ship-it** | Headless CMS, Exco Directory, Make.com Automations & Communication Pipelines |
+
+---
+
+## 🛡️ Repository Rules & Workflow
+
+To maintain the highest code quality, we strictly enforce GitHub branch protection on the `main` branch:
+
+1. **No Direct Pushes:** All work must be completed on feature branches (e.g., `feat/`, `fix/`).
+2. **Pull Requests Mandatory:** Developers must open a Pull Request to merge into `main`.
+3. **Lead Approval Required:** Every PR requires at least **1 approving review** from the Team Lead (**W3BGHOST**) before merging.
+4. **CI/CD Quality Gate:** The `Lint, Typecheck & Build` automated pipeline must pass successfully.
+5. **Team Badges:** Co-authorship trailers are automatically integrated to ensure all collaborating developers get official contribution credit!
 
 ---
 
@@ -63,8 +75,8 @@ Visit `http://localhost:3000` to view the live portal.
 
 ## 📋 Project Roadmap
 
-Sprint tracking and blocker dependencies are managed directly on the [GitHub Issues Dashboard](https://github.com/Webghost01-NG/mssn-lasu-portal/issues).
+Sprint tracking, assignments, and blocker dependencies are managed directly on the [GitHub Issues Dashboard](https://github.com/Webghost01-NG/mssn-lasu-portal/issues).
 
 ---
 
-*Lead Architect: **WEB_GHOST** (MSSN LASU Web Team Lead)*
+*Lead Architect: **W3BGHOST** (MSSN LASU Web Team Lead)*
