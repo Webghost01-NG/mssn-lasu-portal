@@ -1,0 +1,31 @@
+name: Auto-Unblock Dependent Issues
+
+on:
+  pull_request:
+    types: [closed]
+  issues:
+    types: [closed]
+  workflow_dispatch:
+
+jobs:
+  unblock:
+    name: Detect & Unblock Ready Tasks
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run Auto-Unblocker
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 .github/scripts/unblock_issues.py
